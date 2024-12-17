@@ -1,0 +1,5 @@
+.env
+# Ignore virtual environment
+ai_code_generator/
+__pycache__/
+*.pyc

@@ -1,0 +1,5 @@
+const fetchItems = async () => {
+  const response = await fetch('https://api.example.com/items');
+  const jsonData = await response.json();
+  return jsonData;
+};
